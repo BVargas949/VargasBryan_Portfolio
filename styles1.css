@@ -13,7 +13,8 @@ html body {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    /* background-color: rgb(197, 252, 181); */
+    background-color: aliceblue;
     height: 100%;
 }
 
@@ -68,7 +69,7 @@ img {
 /* Name styles */
 h1#name {
     clear: both;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 
 }
@@ -83,11 +84,13 @@ article p {
     width: 50%;
     margin-left: 42%;
     margin-top: 1%;
-    border: 1px double gray;
+    border: 1px double rgb(0, 0, 0);
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 25px;
+    /* background: linear-gradient(salmon, brown); */
     /* background: linear-gradient(rgb(82, 20, 20), rgb(201, 80, 80), rgb(36, 36, 36)); */
     /* color: whitesmoke; */
+
 }
 
 article section {
