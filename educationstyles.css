@@ -3,8 +3,8 @@
 
 /* Body styles */
 html {
-    /* background: url(coolone.jpg); */
-    background: url(greenone.jpg) no-repeat;
+
+    background: url(help.jpg) no-repeat;
     background-size: cover;
     height: 100%;
 }
@@ -13,7 +13,7 @@ html body {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    background-color: rgba(77, 103, 247, 0.555);
     height: 100%;
 }
 
@@ -29,37 +29,74 @@ nav ul {
     display: table-row;
     list-style-type: none;
     width: 100%;
-    background-color: black;
+    background-color: white;
 
 }
 
 nav ul>li {
     display: table-cell;
     width: 25%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border: 2px solid black;
+
 
 }
 
 nav ul li a {
-    color: whitesmoke;
+
+    font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
 }
 
 nav>ul>li>a:link,
 nav>ul>li>a:visited {
-    color: whitesmoke;
+    color: black;
 
 }
 
 nav>ul>li>a:active,
 nav>ul>li>a:hover {
     color: rgb(122, 27, 27);
+
     text-decoration: none;
 }
 
+img {
+    float: left;
+    margin-left: 8%;
+    padding-top: 10%;
+
+}
+
+
 
 /* Name styles */
-h1#name {
-    font-size: 30px;
+h1 {
+    clear: both;
+    font-size: 40px;
     text-align: center;
+    margin-top: 2%;
+    color: whitesmoke;
+
+}
+
+/* paragraph styes */
+
+
+
+article p {
+    border: 5px double rgb(0, 0, 0);
+
+    font-size: 110%;
+    color: whitesmoke;
+    background-color: rgb(6, 134, 106);
+    padding: 5px;
+}
+
+/* Footer Styles */
+body>footer address {
+    background-color: whitesmoke;
+    color: black;
+    font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
+    text-align: center;
+
+
 }
