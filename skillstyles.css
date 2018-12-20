@@ -7,6 +7,7 @@ html {
     background: url(help.jpg) no-repeat;
     background-size: cover;
     height: 100%;
+    overflow: auto;
 }
 
 html body {
@@ -15,6 +16,7 @@ html body {
     margin-right: auto;
     background-color: rgba(77, 103, 247, 0.555);
     height: 100%;
+    overflow: auto;
 }
 
 
@@ -84,11 +86,20 @@ h1 {
 
 article p {
     border: 5px double rgb(0, 0, 0);
-
+    width: 60%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 110%;
     color: whitesmoke;
     background-color: rgb(6, 134, 106);
     padding: 5px;
+}
+
+section p {
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
 }
 
 /* Footer Styles */
@@ -99,4 +110,27 @@ body>footer address {
     text-align: center;
 
 
+}
+
+/* Table styles */
+
+table {
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 2%;
+    border: 3px solid grey;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border: 1px solid gray;
+    font-size: 0.85em;
+    font-weight: normal;
+    padding: 5px;
+    text-align: top;
+    text-align: center;
 }
