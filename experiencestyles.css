@@ -7,6 +7,7 @@ html {
     background: url(help.jpg) no-repeat;
     background-size: cover;
     height: 100%;
+    overflow: scroll;
 }
 
 html body {
@@ -15,6 +16,7 @@ html body {
     margin-right: auto;
     background-color: rgba(77, 103, 247, 0.555);
     height: 100%;
+    overflow: scroll;
 }
 
 
@@ -60,7 +62,7 @@ nav>ul>li>a:hover {
 }
 
 img {
-    float: left;
+
     margin-left: 8%;
     padding-top: 10%;
 
